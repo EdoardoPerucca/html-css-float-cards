@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix ::after {
+    content: **;
+    display: block;
+    clear: both;
+}
+
+body {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgba(229,49,112,255);
+    text-align: center;
+}
+
+p {
+    text-align-last: center;
+}
+
+
+.float-left {
+    background-color: rgba(15,14,23,255);
+    width: 30%;
+    height: 75px;
+    margin-top: 40px;
+    float: left;   
+}
+
+.float-left1 {
+    background-color: rgba(15,14,23,255);
+    width: 30%;
+    height: 75px;
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+   
+}
+
+.img-foto {
+    width: 25%;
+    text-align: left;
+    float: left;
+}
+
+.details-name {
+    margin-top: 5px;
+    padding-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+.details-job {
+    padding-left: 90px;
+    color: white;
+}
+
+.details-email {
+    padding-left: 90px;
+    color: rgba(47,136,207,255)
+}
